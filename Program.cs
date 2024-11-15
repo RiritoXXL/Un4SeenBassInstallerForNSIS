@@ -24,6 +24,7 @@ namespace Un4SeenBASSInstallerNSISEdition
         }
         static void Main(string[] args)
         {
+            Console.Title = "Un4SeenBASSInstallerNSISEdition by RiritoXXL"
             if(Directory.Exists("C:\\Program Files (x86)\\NSIS\\Plugins\\x86-unicode"))
             {
                 ExtractFiles("Un4SeenBASSInstallerNSISEdition", "C:\\Program Files (x86)\\NSIS\\Plugins\\x86-unicode", "Resources", "bass.dll");
